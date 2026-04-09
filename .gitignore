@@ -1,0 +1,40 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+build/
+dist/
+
+### Jupyter Notebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# 노트북 실행 결과물이 너무 커서 커밋이 안 될 때를 대비
+# .ipynb 
+
+### Data & Models (가장 중요!) ###
+# 대용량 데이터셋과 모델 가중치 파일은 깃허브 용량 제한(100MB) 때문에 제외해야 합니다.
+data/
+datasets/
+*.csv
+*.jsonl
+*.zip
+*.tar.gz
+
+# 머신러닝 모델 저장 파일
+*.pth
+*.pt
+*.h5
+*.weights
+*.onnx
+*.pkl
+models/
+checkpoints/
+
+### IDE ###
+.vscode/
+.idea/
+.DS_Store (Mac 전용)
